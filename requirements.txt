@@ -1,0 +1,8 @@
+uvicorn==0.14.0
+fastapi==0.65.2
+python-multipart==0.0.5
+
+mysql-connector-python==8.0.25
+
+boto3==1.17.98
+requests==2.25.1
