@@ -1,8 +1,10 @@
 import uvicorn
 from fastapi import FastAPI
 
+from api.routes.api import router
 
 app = FastAPI()  # noqa: pylint=invalid-name
+app.include_router(router)
 
 
 @app.get("/")
